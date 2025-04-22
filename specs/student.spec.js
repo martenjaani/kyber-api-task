@@ -1,6 +1,7 @@
 import fetch from 'node-fetch';
 
 const { API_URL } = process.env;
+console.log('API_URL:', API_URL);
 
 describe('Student endpoint', () => {
   it('Should be able to create an student', async () => {
@@ -99,5 +100,16 @@ describe('Student endpoint', () => {
     const getResponse = await fetch(`${API_URL}/student`);
     const students = await getResponse.json();
     expect(students.length).toBe(2);
+  });
+
+  // Added by me (Marten)
+  it('Should be able to delete all students', async () => {
+    const response = await fetch(`${API_URL}/student`, {
+      method: 'DELETE',
+    });
+    expect(response.ok).toBe(true);
+    expect(response.status).toBe(200);
+    const students = await response.json();
+    expect(students.length).toBe(0);
   });
 });
