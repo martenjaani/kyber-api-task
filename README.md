@@ -25,7 +25,7 @@ API_URL="http://localhost:5000" yarn test
 ```
 
 ### Instruktsioonid käivitamiseks Dockeri konteineriga 
-(vaja on Dockerit)
+(vaja on Docker Engine)
 
 1. Tõmba image
 ```cmd
