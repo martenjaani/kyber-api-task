@@ -3,7 +3,8 @@ Autor: Marten Mathias Jaani
 
 Siin on minu lahendus, allpool on instruktsioonid käivitamiseks nii lokaalselt kui ka Docker konteineri kaudu
 
-### Instruktsioonid käivitamiseks lokaalselt (vaja on node.js ja yarn/npm (sel juhul käskudes kasutada ```yarn``` asemel ```npm```))
+### Instruktsioonid käivitamiseks lokaalselt 
+(vaja on node.js ja yarn/npm (sel juhul käskudes kasutada ```yarn``` asemel ```npm```)
 
 1. Paki kaust lahti
 2. Käivita backend
@@ -23,7 +24,9 @@ Linux
 API_URL="http://localhost:5000" yarn test
 ```
 
-### Instruktsioonid käivitamiseks Dockeri konteineriga (vaja on Dockerit)
+### Instruktsioonid käivitamiseks Dockeri konteineriga 
+(vaja on Dockerit)
+
 1. Tõmba image
 ```cmd
 docker pull martenjaani/student-api:latest
