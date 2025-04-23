@@ -41,6 +41,6 @@ See käivitab backendi konteineris, endpointid on saadavad ka lokaalselt http://
 
 3. Jooksuta testid uues aknas
 ```cmd
-docker exec -it student-api-container yarn run test
+docker exec -it student-api-container yarn test
 ```
 
