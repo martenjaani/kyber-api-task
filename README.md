@@ -23,7 +23,7 @@ Linux
 API_URL="http://localhost:5000" yarn test
 ```
 
-### Instruktsioonid käivitamiseks Dockeri konteineriga (vaja on Docker)
+### Instruktsioonid käivitamiseks Dockeri konteineriga (vaja on Dockerit)
 1. Tõmba image
 ```cmd
 docker pull martenjaani/student-api:latest
