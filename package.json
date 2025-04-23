@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest --runInBand",
-    "start": "node ./backend/server.js"
+    "start": "node backend/server.js"
   },
   "dependencies": {
     "express": "^5.1.0",

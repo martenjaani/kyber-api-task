@@ -3,6 +3,8 @@ Autor: Marten Mathias Jaani
 
 Siin on minu lahendus **API Test Task** ülesandele, allpool on instruktsioonid käivitamiseks nii lokaalselt kui ka Docker konteineri kaudu
 
+Lahendus kasutab Express.js serverit, endpointid on saadaval http://localhost:5000
+
 ### Instruktsioonid käivitamiseks lokaalselt 
 (vaja on node.js ja yarn/npm (sel juhul käskudes kasutada ```yarn``` asemel ```npm```)
 
