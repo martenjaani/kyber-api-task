@@ -3,7 +3,7 @@ Autor: Marten Mathias Jaani
 
 Siin on minu lahendus, allpool on instruktsioonid käivitamiseks nii lokaalselt kui ka Docker konteineri kaudu
 
-### Instruktsioonid käivitamiseks lokaalselt (vaja on node.js)
+### Instruktsioonid käivitamiseks lokaalselt (vaja on node.js ja yarn/npm (sel juhul käskudes kasutada ```yarn``` asemel ```npm```))
 
 1. Paki kaust lahti
 2. Käivita backend
