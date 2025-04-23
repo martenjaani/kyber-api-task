@@ -11,7 +11,7 @@ Siin on minu lahendus, allpool on instruktsioonid käivitamiseks nii lokaalselt 
 yarn install
 yarn start
 ```
-3. Jooksuta testid
+3. Jooksuta testid uues aknas
 
 Windows cmd
 ```cmd
@@ -23,7 +23,7 @@ Linux
 API_URL="http://localhost:5000" yarn test
 ```
 
-### Instruktsioonid käivitamiseks Dockeri konteineriga (vaja on Docker)
+### Instruktsioonid käivitamiseks Dockeri konteineriga (vaja on Dockerit)
 1. Tõmba image
 ```cmd
 docker pull martenjaani/student-api:latest
@@ -34,7 +34,7 @@ docker run -p 5000:5000 --name student-api-container martenjaani/student-api:lat
 ```
 See käivitab backendi konteineris, endpointid on saadavad ka lokaalselt http://localhost:5000
 
-3. Käivita testid (konteineri siseselt)
+3. Jooksuta testid uues aknas
 ```cmd
 docker exec -it student-api-container yarn run test
 ```
