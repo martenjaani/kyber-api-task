@@ -19,7 +19,7 @@ yarn start
 
 Windows cmd
 ```cmd
-setx API_URL "http://localhost:5000"
+set API_URL "http://localhost:5000"
 yarn test
 ```
 Linux
