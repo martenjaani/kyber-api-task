@@ -9,7 +9,8 @@ Lahendus kasutab Express.js serverit, endpointid on saadaval http://localhost:50
 (vaja on node.js ja yarn/npm (sel juhul käskudes kasutada ```yarn``` asemel ```npm```)
 
 1. Paki kaust lahti
-2. Käivita backend
+2. Mine käsureaga projekti root kausta
+3. Käivita backend
 ```cmd
 yarn install
 yarn start
@@ -43,4 +44,4 @@ See käivitab backendi konteineris, endpointid on saadavad ka lokaalselt http://
 ```cmd
 docker exec -it student-api-container yarn test
 ```
-
+Repo link: https://github.com/martenjaani/kyber-api-task
